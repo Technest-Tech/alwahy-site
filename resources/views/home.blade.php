@@ -6,60 +6,69 @@
             'id' => 'starter',
             'icon' => '🌱',
             'name_en' => 'Starter Package (Trial)',
-            'name_ar' => 'باقة البداية المُبشرة (للمبتدئين تماماً)',
+            'name_ar' => 'باقة البداية (تجريبية)',
             'badge' => null,
             'description_en' => 'Perfect for beginners',
-            'description_ar' => 'من الصفر إلى قراءة أول آية',
+            'description_ar' => 'مثالية للمبتدئين',
             'sessions_count' => 2,
-            'sessions_per_week' => 2,
-            'original_price' => 12,
-            'price' => 10,
-            'discount_percentage' => 17,
+            'sessions_per_week' => null,
+            'sessions_detail_en' => '2 live sessions (1 hour each)',
+            'sessions_detail_ar' => 'جلستان مباشرتان (ساعة واحدة لكل جلسة)',
+            'original_price' => 20,
+            'price' => 16,
+            'discount_percentage' => 20,
             'package_type' => 'regular',
         ],
         [
             'id' => 'basic',
             'icon' => '📘',
             'name_en' => 'Basic Package',
-            'name_ar' => 'باقة الطريق إلى الفصاحة',
+            'name_ar' => 'الباقة الأساسية',
             'badge' => null,
-            'description_en' => 'For steady learning',
-            'description_ar' => 'تحول كبير في 10 ساعات فقط',
+            'description_en' => 'For consistent learning',
+            'description_ar' => 'للتعلم المستمر',
             'sessions_count' => 8,
             'sessions_per_week' => 2,
-            'original_price' => 48,
-            'price' => 45,
-            'discount_percentage' => 6,
+            'sessions_detail_en' => '8 sessions per month (2 per week)',
+            'sessions_detail_ar' => '8 جلسات شهرياً (جلستان أسبوعياً)',
+            'original_price' => 80,
+            'price' => 72,
+            'discount_percentage' => 10,
             'package_type' => 'regular',
         ],
         [
             'id' => 'standard',
             'icon' => '⭐',
             'name_en' => 'Standard Package',
-            'name_ar' => 'باقة التميز في التلاوة',
+            'name_ar' => 'الباقة القياسية',
             'badge' => 'Most Popular',
-            'description_en' => 'Best value for progress',
-            'description_ar' => 'أفضل قيمة للتقدم',
+            'badge_ar' => 'الأكثر شعبية',
+            'description_en' => 'Best value for steady progress',
+            'description_ar' => 'أفضل قيمة للتقدم المستمر',
             'sessions_count' => 12,
             'sessions_per_week' => 3,
-            'original_price' => 72,
-            'price' => 65,
-            'discount_percentage' => 10,
+            'sessions_detail_en' => '12 sessions per month (3 per week)',
+            'sessions_detail_ar' => '12 جلسة شهرياً (3 جلسات أسبوعياً)',
+            'original_price' => 120,
+            'price' => 102,
+            'discount_percentage' => 15,
             'package_type' => 'regular',
         ],
         [
             'id' => 'premium',
             'icon' => '🚀',
             'name_en' => 'Premium Package',
-            'name_ar' => 'باقة حفظ وتجويد',
+            'name_ar' => 'الباقة المميزة',
             'badge' => null,
-            'description_en' => 'Fast and effective progress',
-            'description_ar' => 'تقدم سريع وفعال',
+            'description_en' => 'Fast & focused progress',
+            'description_ar' => 'تقدم سريع ومركّز',
             'sessions_count' => 20,
             'sessions_per_week' => 5,
-            'original_price' => 120,
-            'price' => 105,
-            'discount_percentage' => 13,
+            'sessions_detail_en' => '20 sessions per month (5 per week)',
+            'sessions_detail_ar' => '20 جلسة شهرياً (5 جلسات أسبوعياً)',
+            'original_price' => 200,
+            'price' => 160,
+            'discount_percentage' => 20,
             'package_type' => 'regular',
         ],
         [
@@ -68,14 +77,33 @@
             'name_en' => 'Family Package',
             'name_ar' => 'باقة العائلة',
             'badge' => null,
-            'description_en' => 'For siblings - 2 students, 16 sessions per month',
-            'description_ar' => 'للأشقاء - طالبان، 16 جلسة شهرياً',
+            'description_en' => 'For siblings',
+            'description_ar' => 'للأشقاء',
             'sessions_count' => 16,
-            'sessions_per_week' => 4,
-            'original_price' => 96,
-            'price' => 85,
-            'discount_percentage' => 12,
+            'sessions_per_week' => null,
+            'sessions_detail_en' => '2 students, 16 sessions per month',
+            'sessions_detail_ar' => 'طالبان، 16 جلسة شهرياً',
+            'original_price' => 160,
+            'price' => 136,
+            'discount_percentage' => 15,
             'package_type' => 'regular',
+        ],
+        [
+            'id' => 'intensive-1',
+            'icon' => '🎯',
+            'name_en' => 'Intensive One-to-One',
+            'name_ar' => 'مكثف فردي',
+            'badge' => null,
+            'description_en' => 'Fully personalized plan',
+            'description_ar' => 'خطة شخصية بالكامل',
+            'sessions_count' => 1,
+            'sessions_per_week' => null,
+            'sessions_detail_en' => 'Single session',
+            'sessions_detail_ar' => 'جلسة واحدة',
+            'original_price' => 10,
+            'price' => 10,
+            'discount_percentage' => 0,
+            'package_type' => 'intensive',
         ],
         [
             'id' => 'intensive-10',
@@ -83,13 +111,15 @@
             'name_en' => 'Intensive One-to-One',
             'name_ar' => 'مكثف فردي',
             'badge' => null,
-            'description_en' => 'Fully personalized - 10 sessions',
-            'description_ar' => 'شخصي بالكامل - 10 جلسات',
+            'description_en' => 'Fully personalized plan',
+            'description_ar' => 'خطة شخصية بالكامل',
             'sessions_count' => 10,
             'sessions_per_week' => null,
-            'original_price' => 60,
-            'price' => 55,
-            'discount_percentage' => 8,
+            'sessions_detail_en' => '10 sessions',
+            'sessions_detail_ar' => '10 جلسات',
+            'original_price' => 100,
+            'price' => 90,
+            'discount_percentage' => 10,
             'package_type' => 'intensive',
         ],
         [
@@ -98,13 +128,15 @@
             'name_en' => 'Intensive One-to-One',
             'name_ar' => 'مكثف فردي',
             'badge' => null,
-            'description_en' => 'Fully personalized - 20 sessions',
-            'description_ar' => 'شخصي بالكامل - 20 جلسة',
+            'description_en' => 'Fully personalized plan',
+            'description_ar' => 'خطة شخصية بالكامل',
             'sessions_count' => 20,
             'sessions_per_week' => null,
-            'original_price' => 120,
-            'price' => 105,
-            'discount_percentage' => 12,
+            'sessions_detail_en' => '20 sessions',
+            'sessions_detail_ar' => '20 جلسة',
+            'original_price' => 200,
+            'price' => 160,
+            'discount_percentage' => 20,
             'package_type' => 'intensive',
         ],
     ];
@@ -235,7 +267,7 @@
                 <div class="card {{ $package['badge'] === 'Most Popular' ? 'border-gold-400 border-2 scale-105' : '' }} relative">
                     @if($package['badge'])
                     <div class="absolute top-4 right-4 bg-gold-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-full">
-                        {{ $package['badge'] }}
+                        {{ app()->getLocale() === 'ar' && isset($package['badge_ar']) ? $package['badge_ar'] : $package['badge'] }}
                     </div>
                     @endif
                     
@@ -243,23 +275,29 @@
                         <div class="text-5xl mb-4">{{ $package['icon'] }}</div>
                         <h3 class="text-2xl font-bold text-gold-400 mb-2">{{ app()->getLocale() === 'ar' ? $package['name_ar'] : $package['name_en'] }}</h3>
                         @if($package['badge'])
-                        <div class="text-sm text-gold-400 mb-3 font-semibold">{{ $package['badge'] }}</div>
+                        <div class="text-sm text-gold-400 mb-3 font-semibold">{{ app()->getLocale() === 'ar' && isset($package['badge_ar']) ? $package['badge_ar'] : $package['badge'] }}</div>
                         @endif
                         
                         <p class="text-gray-300 mb-4">{{ app()->getLocale() === 'ar' ? $package['description_ar'] : $package['description_en'] }}</p>
                         
                         <div class="text-left mb-4 space-y-2">
-                            @if($package['package_type'] === 'intensive')
+                            @if(isset($package['sessions_detail_en']))
                                 <div class="text-gray-300">
-                                    • {{ $package['sessions_count'] }} {{ app()->getLocale() === 'ar' ? 'جلسات' : 'sessions' }}
+                                    • {{ app()->getLocale() === 'ar' ? $package['sessions_detail_ar'] : $package['sessions_detail_en'] }}
                                 </div>
                             @else
-                                <div class="text-gray-300">
-                                    • {{ $package['sessions_count'] }} {{ app()->getLocale() === 'ar' ? 'جلسات شهرياً' : 'sessions per month' }}
-                                    @if($package['sessions_per_week'])
-                                    ({{ $package['sessions_per_week'] }}/{{ app()->getLocale() === 'ar' ? 'أسبوع' : 'week' }})
-                                    @endif
-                                </div>
+                                @if($package['package_type'] === 'intensive')
+                                    <div class="text-gray-300">
+                                        • {{ $package['sessions_count'] }} {{ app()->getLocale() === 'ar' ? 'جلسات' : 'sessions' }}
+                                    </div>
+                                @else
+                                    <div class="text-gray-300">
+                                        • {{ $package['sessions_count'] }} {{ app()->getLocale() === 'ar' ? 'جلسات شهرياً' : 'sessions per month' }}
+                                        @if($package['sessions_per_week'])
+                                        ({{ $package['sessions_per_week'] }}/{{ app()->getLocale() === 'ar' ? 'أسبوع' : 'week' }})
+                                        @endif
+                                    </div>
+                                @endif
                             @endif
                         </div>
                         
@@ -272,7 +310,7 @@
                         
                         @if($package['discount_percentage'] > 0)
                         <div class="text-sm text-gray-400">
-                            ({{ app()->getLocale() === 'ar' ? 'توفير' : 'Save' }} {{ $package['discount_percentage'] }}%)
+                            {{ app()->getLocale() === 'ar' ? 'توفير' : 'You save' }} {{ $package['discount_percentage'] }}%
                         </div>
                         @endif
                     </div>
