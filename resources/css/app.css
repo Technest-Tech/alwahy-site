@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -20,14 +20,14 @@
 }
 
 body {
-    font-family: 'Inter', 'Cairo', sans-serif;
+    font-family: 'Almarai', 'Inter', 'Cairo', sans-serif;
     background-color: var(--black);
     color: #ffffff;
     overflow-x: hidden;
 }
 
 [dir="rtl"] {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Almarai', 'Cairo', sans-serif;
 }
 
 /* Smooth scrolling */
@@ -425,5 +425,13 @@ table th {
     background: rgba(239, 68, 68, 0.2);
     border: 1px solid rgba(239, 68, 68, 0.5);
     color: #f87171;
+}
+
+/* Strikethrough for old prices */
+.price-strikethrough {
+    text-decoration: line-through !important;
+    text-decoration-thickness: 2px !important;
+    text-decoration-color: #6b7280 !important;
+    opacity: 0.7;
 }
 

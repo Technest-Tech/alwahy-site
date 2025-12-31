@@ -16,7 +16,13 @@ class Package extends Model
         'description_en',
         'description_ar',
         'price',
+        'original_price',
+        'discount_percentage',
         'sessions_per_week',
+        'sessions_count',
+        'icon',
+        'badge',
+        'package_type',
     ];
 
     public function registrations(): HasMany

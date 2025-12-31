@@ -47,4 +47,7 @@
 </body>
 </html>
 
+
+
+
 <?php /**PATH /Users/ahmedomar/Documents/technest/Alwahy Academy/academy-site/resources/views/layouts/app.blade.php ENDPATH**/ ?>
